@@ -1,10 +1,10 @@
-
+import image from "/src/assets/section.jpg"
 function Section(){
     return(
         <>
          <div className="section-container">
             <div className="left-section">
-                <img src="/src/assets/section.jpg" alt="" />
+                <img src={image} alt="" />
             </div>
             <div className="right-section">
                 <div className="right-contain">
